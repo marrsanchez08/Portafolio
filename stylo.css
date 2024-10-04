@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', Courier, monospace;
+}
+
+body{
+    background: linear-gradient(to bottom left,  rgb(255, 99, 99), #ff8aef);
+    background-size: cover;
+    height: auto;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background: linear-gradient(to right, #ff8aef, white, rgb(230, 173, 192));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a{
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .5s;
+}
+
+.navbar a:hover{
+    color: #0004ff;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.home-content{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.home-content p{
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 20px;
+    color: #323232;
+}
+
+.home-image{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-image img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid  rgb(255, 0, 0);
+}
+
+/* Botón Contact Us */
+.contact-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: rgb(255, 94, 215);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-top: 20px;
+}
+
+.contact-btn:hover{
+    background-color: #6b1c62;
+    color: white;
+    border-color: #323232;
+}
+
+.footer p{
+    margin: 10px;
+    font-size: 18px;
+}
+
+.footer{
+    background: linear-gradient(to right, rgb(255, 62, 94), rgb(252, 81, 81), rgb(236, 105, 105)); /* Degradado de rosa a blanco y celeste */
+    padding: 20px;
+    text-align: center;
+    color: black;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.social-icons a {
+    margin: 0 15px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover{
+    color: #ffffff;
+}
